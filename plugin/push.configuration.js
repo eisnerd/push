@@ -104,6 +104,10 @@ var archConfig = {
         result.android.icon = config.icon;
       }
 
+      if (config.image) {
+        result.android.image = config.image;
+      }
+
       if (config.iconColor) {
         result.android.iconColor = config.iconColor;
       }
